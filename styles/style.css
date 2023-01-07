@@ -11,6 +11,38 @@
  border: none;
  border-radius: 8px;
 }
+.btn-secondary{
+ background-color: #005fac;
+ padding: 20px 40px;
+ color: white;
+ border:none;
+ border-radius: 10px;
+ font-size: 24px;
+}
+/* header css */
+nav{
+ display: flex;
+ justify-content: space-around;
+ padding: 40px 0px;
+}
+nav h2{
+ font-weight: 700;
+font-size: 50px;
+color: rgb(27, 128, 211);
+}
+nav h2 span img{
+ height: 50px;
+ width: 40px;
+}
+.nav-ul{
+ display: flex;
+ gap: 60px;
+ 
+}
+.nav-ul li{
+ list-style: none;
+}
+
 /* banner section */
 .banner{
  background-image: url('../images/banner/banner3.png');
@@ -166,11 +198,9 @@ footer img{
  padding:20px 60px 20px 20px;
  border-radius: 10px;
  margin-bottom: 20px;
+ font-size: 24px;
 }
-.subscribe{
- background-color: #005fac;
- padding: 20px 40px;
- color: white;
- border:none;
- border-radius: 10px;
+::placeholder{
+ color: #fff;
 }
+
