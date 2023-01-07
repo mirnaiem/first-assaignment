@@ -15,9 +15,9 @@
  background-image: url('../images/banner/banner3.png');
  background-repeat: no-repeat;
  background-size: cover;
- padding: 500px 0px;
+ padding: 350px 0px;
  text-align: right;
- margin-bottom: 130px;
+ margin-bottom:150px;
  padding-right: 200px;
 }
 .banner-container{
@@ -78,4 +78,98 @@ font-size: 26px;
 color: #444343;
 margin-bottom: 8px;
 margin-left: 20px;
+}
+/* my plan */
+.plan{
+ max-width: 1500px;
+margin:0 auto;
+text-align: center;
+}
+.plan-title{
+ margin-top: 150px;
+ font-weight: 700;
+font-size: 60px;
+color: #151414;
+margin-bottom: 50px;
+}
+.plan-container{
+ display: flex;
+ justify-content: center;
+ gap: 100px;
+ margin-bottom: 150px;
+}
+.plan-sub-title{
+ margin-top: 25px;
+ font-weight: 700;
+font-size: 40px;
+color: #151414;
+margin-bottom: 16px;
+}
+.plan-sub-des{
+ font-weight: 400;
+font-size: 26px;
+color: #444343;
+}
+
+/* gradient css */
+.gradient{
+ max-width: 1500px;
+ margin: 0 auto;
+}
+.gradient-container{
+ background-image: url('../images/gradient1.png'),url('../images/watch.png');
+ background-repeat: no-repeat;
+ text-align: left;
+ margin-left: 200px;
+ padding: 50px 50px;
+}
+.gradient h2{
+ font-size: 45px;
+}
+
+/* footer css */
+footer{
+ margin-top: 150px;
+ background: #151414;
+ padding:150px 100px ;
+}
+.footer-container{
+ display: flex;
+ justify-content:space-around;
+}
+.footer-title{
+ color: #fff;
+ font-size: 45px;
+ font-weight: 700;
+ margin-bottom: 20px;
+}
+.footer-description{
+ font-weight: 400;
+font-size: 20px;
+color: #fffcfc;
+margin-bottom: 20px;
+}
+footer img{
+ margin-right: 10px;
+}
+.footer-sub-title{
+ color: #fff;
+ font-size: 35px;
+ font-weight: 700;
+ margin-bottom: 20px;
+}
+.email{
+ 
+ background-color: #151414;
+ border: 2px solid floralwhite;
+ padding:20px 60px 20px 20px;
+ border-radius: 10px;
+ margin-bottom: 20px;
+}
+.subscribe{
+ background-color: #005fac;
+ padding: 20px 40px;
+ color: white;
+ border:none;
+ border-radius: 10px;
 }
